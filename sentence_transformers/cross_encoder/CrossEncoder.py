@@ -10,7 +10,7 @@ import torch
 from torch import Tensor, nn
 from torch.optim import Optimizer
 from torch.utils.data import DataLoader
-from tqdm.autonotebook import tqdm, trange
+from tqdm.notebook import tqdm, trange
 from transformers import AutoConfig, AutoModelForSequenceClassification, AutoTokenizer, is_torch_npu_available
 from transformers.tokenization_utils_base import BatchEncoding
 from transformers.utils import PushToHubMixin
